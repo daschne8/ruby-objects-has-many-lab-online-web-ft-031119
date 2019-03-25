@@ -1,3 +1,4 @@
+require 'pry'
 class Artist
   attr_accessor :name
   @@total_songs = []
@@ -23,3 +24,6 @@ class Artist
     @@total_songs.length
   end
 end
+
+
+binding.pry
